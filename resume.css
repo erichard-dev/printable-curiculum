@@ -20,13 +20,14 @@ main {
   height: 11in;
   background-color: white;
   box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
-  font-family: "Source Serif Pro", "Cambria", "Charter", "Georgia", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: hsl(0, 0%, 20%);
 }
 
-header {
-  border: 1px solid black;
+main > header {
     grid-column: 1/8;
+    display: flex;
+    justify-content: center;
 }
 
 aside {
@@ -34,9 +35,38 @@ aside {
 }
 
 section {
-    border: 1px solid black;
 }
 
 img {
   max-width: 100%;
+}
+
+.B {
+  
+  display: flex;
+}
+
+.C {
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80px; /*à redimensionner selon les besoins*/
+}
+
+.D {
+  flex: 1;
+}
+
+.D h3 {
+  margin: 0;
+}
+
+.A header h2{
+  margin: 0;
+}
+
+.A header {
+  border-bottom: 2px solid black;
+  margin-left: 10px;
 }
