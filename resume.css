@@ -10,9 +10,6 @@ body {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 12fr;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0.5in;
@@ -25,16 +22,19 @@ main {
 }
 
 main > header {
-    grid-column: 1/8;
     display: flex;
     justify-content: center;
 }
 
 aside {
-  border: 1px solid black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 section {
+  flex: 3;
 }
 
 img {
@@ -81,4 +81,22 @@ h2 {
 
 .E {
   margin-left: 10px;
+}
+
+.AA {
+  display: flex;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
 }
