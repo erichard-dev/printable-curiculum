@@ -41,12 +41,12 @@ img {
   max-width: 100%;
 }
 
-.B {
+.experience-wrapper {
   
   display: flex;
 }
 
-.C {
+.experience-duration {
   
   display: flex;
   justify-content: center;
@@ -54,11 +54,11 @@ img {
   width: 80px; /*à redimensionner selon les besoins*/
 }
 
-.D {
+.experience-description {
   flex: 1;
 }
 
-.D h3 {
+.experience-description h3 {
   margin: 0;
 }
 
@@ -83,7 +83,7 @@ h2 {
   margin-left: 10px;
 }
 
-.AA {
+.identity-experiences-skills {
   display: flex;
 }
 
