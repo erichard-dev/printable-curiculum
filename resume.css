@@ -2,12 +2,16 @@
   font-size: 14px;
 }
 
+/* FOND GRIS */
+
 body {
   background-color: rgb(216, 216, 216);
   line-height: 1.5;
   margin: 10px auto;
   max-width: 1200px;
 }
+
+/* FEUILLE A4 */
 
 main {
   margin: 0 auto;
@@ -21,10 +25,28 @@ main {
   color: hsl(0, 0%, 20%);
 }
 
+/* TITLE */
+
 main > header {
     display: flex;
     justify-content: center;
 }
+
+header h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+/* RESUME CONTENT */
+
+.identity-experiences-skills {
+  display: flex;
+}
+
+/* IDENTITY-CONTACT-SOFT-SKILLS */
 
 aside {
   flex: 1;
@@ -33,70 +55,58 @@ aside {
   justify-content: space-between;
 }
 
-section {
-  flex: 3;
-}
-
 img {
   max-width: 100%;
 }
 
-.B {
-  
+/* EXPERIENCES */
+
+section {
+  flex: 3;
+  margin-left: 10px;
+}
+
+article header {
+  border-bottom: 2px solid black;
+}
+
+.experience-wrapper {
   display: flex;
 }
 
-.C {
-  
+.experience-duration {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 80px; /*à redimensionner selon les besoins*/
 }
 
-.D {
-  flex: 1;
+.experience-description {
+  flex: 1; /*pourquoi ? */
 }
 
-.D h3 {
+.experience-description h3 {
   margin: 0;
 }
 
-article header {
-  border-bottom: 2px solid black;
-  margin: 0px 0px 0px 10px;
-}
-
-article h2, h3, p{
-  margin: 0;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-
-h2 {
-  font-size: 1rem;
-}
-
-.E {
-  margin-left: 10px;
-}
-
-.AA {
-  display: flex;
-}
+/* HOBBIES */
 
 .hobbies {
   display: flex;
   justify-content: space-between;
 }
 
-header h1 {
+ul {
+  list-style: none;
   margin: 0;
 }
 
-ul {
-  list-style: none;
+/* ALL */
+
+h2 {
+  font-size: 1rem;
+}
+
+article h2, h3, p{
   margin: 0;
 }
