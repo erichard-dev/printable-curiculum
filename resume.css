@@ -26,48 +26,7 @@ main > header {
     justify-content: center;
 }
 
-aside {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-section {
-  flex: 3;
-}
-
-img {
-  max-width: 100%;
-}
-
-.experience-wrapper {
-  
-  display: flex;
-}
-
-.experience-duration {
-  
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 80px; /*à redimensionner selon les besoins*/
-}
-
-.experience-description {
-  flex: 1;
-}
-
-.experience-description h3 {
-  margin: 0;
-}
-
-article header {
-  border-bottom: 2px solid black;
-  margin: 0px 0px 0px 10px;
-}
-
-article h2, h3, p{
+header h1 {
   margin: 0;
 }
 
@@ -75,16 +34,47 @@ h1 {
   font-size: 1.5rem;
 }
 
-h2 {
-  font-size: 1rem;
+.identity-experiences-skills {
+  display: flex;
 }
 
-.E {
+aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  flex: 3;
   margin-left: 10px;
 }
 
-.identity-experiences-skills {
+article header {
+  border-bottom: 2px solid black;
+}
+
+.experience-wrapper {
   display: flex;
+}
+
+.experience-duration {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80px; /*à redimensionner selon les besoins*/
+}
+
+.experience-description {
+  flex: 1; /*pourquoi ? */
+}
+
+.experience-description h3 {
+  margin: 0;
 }
 
 .hobbies {
@@ -92,11 +82,15 @@ h2 {
   justify-content: space-between;
 }
 
-header h1 {
+ul {
+  list-style: none;
   margin: 0;
 }
 
-ul {
-  list-style: none;
+h2 {
+  font-size: 1rem;
+}
+
+article h2, h3, p{
   margin: 0;
 }
