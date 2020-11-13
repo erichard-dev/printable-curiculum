@@ -2,12 +2,16 @@
   font-size: 14px;
 }
 
+/* FOND GRIS */
+
 body {
   background-color: rgb(216, 216, 216);
   line-height: 1.5;
   margin: 10px auto;
   max-width: 1200px;
 }
+
+/* FEUILLE A4 */
 
 main {
   margin: 0 auto;
@@ -20,6 +24,8 @@ main {
   font-family: 'Times New Roman', Times, serif;
   color: hsl(0, 0%, 20%);
 }
+
+/* TITLE */
 
 main > header {
     display: flex;
@@ -34,9 +40,13 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* RESUME CONTENT */
+
 .identity-experiences-skills {
   display: flex;
 }
+
+/* IDENTITY-CONTACT-SOFT-SKILLS */
 
 aside {
   flex: 1;
@@ -48,6 +58,8 @@ aside {
 img {
   max-width: 100%;
 }
+
+/* EXPERIENCES */
 
 section {
   flex: 3;
@@ -77,6 +89,8 @@ article header {
   margin: 0;
 }
 
+/* HOBBIES */
+
 .hobbies {
   display: flex;
   justify-content: space-between;
@@ -86,6 +100,8 @@ ul {
   list-style: none;
   margin: 0;
 }
+
+/* ALL */
 
 h2 {
   font-size: 1rem;
